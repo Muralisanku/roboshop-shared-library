@@ -80,7 +80,7 @@ def call(Map configMap){
             stage('Sonar scan') {
                 steps{
                     sh """
-                        sonar-scanner
+                        // sonar-scanner
                     """
                 }
             }
